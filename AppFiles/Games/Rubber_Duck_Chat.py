@@ -50,8 +50,6 @@ while not exit:
             possableA = ["I have no idea.", "I don't know.", "I have no clue.", "I wouldn't know."]
             possableB = ["Why don't you try looking it up?", "Maybe try asking someone else?", "Have you tried searching for it?", "Maybe ask ChatGPT?"]
             output = rd.choice(possableA) + " " + rd.choice(possableB)
-    elif "puck" in IN:
-        output = "That's not a nice thing to say!"
     else:
         output = "I don't understand what you're saying. " + rd.choice(tips)
     t.sleep(1)
